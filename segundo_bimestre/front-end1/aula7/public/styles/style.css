@@ -1,0 +1,18 @@
+div{
+    background-image: url("http://www.osmais.com/wallpapers/201505/the-avengers-wallpaper-1280x720.jpg");
+    background-repeat: no-repeat;
+    color: #fdec02;
+    height:800px;
+    width: 800px;
+    text-align: center;
+    padding: 200px; 
+}
+
+div button{
+    height: 40px;
+    width: 90px;
+    border-radius: 12px;
+    background-color: #f74f0de5;
+    color: rgb(15, 15, 15);
+
+}
