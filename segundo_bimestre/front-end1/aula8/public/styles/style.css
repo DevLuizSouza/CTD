@@ -1,0 +1,37 @@
+.square{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 12px;
+}
+
+.square1{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 12px;
+}
+
+.first-square{
+    background-color: aqua;
+    position: relative;
+
+}
+
+.first-square1{
+    background-color: #121212;
+    position:relative;
+    margin: 0 auto;
+    margin-bottom: 12px;
+
+}
+
+.second-square{
+    background-color: #121212;
+    position: relative;
+    
+}
+
+.third-square{
+    background-color: #1919;
+    position: relative;
+    
+}

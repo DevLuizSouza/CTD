@@ -1,0 +1,22 @@
+body{
+    background-color: #dddddd;
+    font-family: "Noto Sans", sans-serif;
+
+    padding: 60px 70px 120px; 
+}
+
+
+code {
+    
+    display: block;
+    padding: 10px 10px;     
+    white-space:inherit;
+    
+
+    font-family: monospace, monospace;
+    margin: 9.5px 0px;
+    border-radius: 10px; 
+    color: #e1e1e6;
+    background-color: #282936;
+    font-size: 105%;
+  }

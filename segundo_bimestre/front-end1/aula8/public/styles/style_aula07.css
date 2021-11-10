@@ -1,0 +1,26 @@
+
+
+div{
+    background-color: aqua;
+    height: 200px;
+    padding: 24px; 
+}
+
+h1{
+    padding-left: 24px;
+    margin: 0;
+
+}
+
+P{
+    background-color: #12389894;
+    margin-top: 40px;
+}
+
+button{
+    height: 100px;
+    width: 400px;
+    padding: auto;
+    margin: 15px auto;
+    display: block;
+}
