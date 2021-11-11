@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgb(47, 47, 48);
+    
+    
+}
+ion-icon {
+    color:rgb(9, 183, 196);
+    width: 50px;
+    height: 50px;
+
+  }
+
+  
+
+form{
+    padding: 24px;
+    background-color: rgb(59, 60, 61); 
+    
+}
+
+label, input{
+    margin-top: 15px;
+    display: block;   
+    
+}
+
+
+input, select{
+    border-color: antiquewhite;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;    
+}
+
+textarea{
+    width: 250px;
+    height: 50px;
+}
+
+select{
+    color: rgb(8, 79, 151); 
+    text-decoration: solid;
+}
