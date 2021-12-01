@@ -1,0 +1,41 @@
+
+body{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+    grid-template-areas: 
+    'main-header main-header'
+    'main-aside main-content'
+
+    'main-footer main-footer '
+
+    ;
+}
+header{
+    background-color: aliceblue;
+    grid-area: main-header;
+    height: 80px;
+}
+
+body header > img{
+    padding: 10px;
+    width: 20px;
+}
+
+aside{
+    background-color: aqua;
+    grid-area: main-aside;
+
+}
+
+main{
+    background-color:chocolate;
+    grid-area: main-content;
+    height: 1000px;
+}
+
+footer{
+    background-color: blueviolet;
+    grid-area: main-footer;
+    height: 200px;
+}

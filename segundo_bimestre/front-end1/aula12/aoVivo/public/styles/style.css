@@ -1,0 +1,23 @@
+.main-button{
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    background-color: rgb(24, 106, 199);
+    border-radius: 12px;
+    transition: .2s;
+}
+
+label{
+    font-size: 16px;
+}
+
+input{
+    background-color: azure;
+    border: none;
+
+    
+}
+.main-button:hover{
+    background-color:rgb(24, 16, 199);
+
+}

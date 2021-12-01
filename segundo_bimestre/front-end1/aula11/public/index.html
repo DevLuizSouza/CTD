@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <main>
+        <form action="" method="">
+            <h1>Cadastro de usuário</h1>
+            <fieldset>
+                <legend>Cadastro do usuário</legend>
+                <label for="">Nome de Usuário</label>
+                <input type="text" name="username" id="username"">
+
+                <label for="">Endereço para entrega</label>
+                <input type="text" name="username" id="username"">
+                
+                <label for="">E-mail</label>
+                <input type="email" name="emailUsername" id="email">
+
+                <label for="passwordUser">Senha</label>
+                <input type="password" name="passwordUser" id="password">
+        
+                <label for="observations">Observações</label>
+                <textarea type="observations" name="observations" id="observations"> 
+                </textarea>
+            
+            
+                <fieldset>
+                    <legend>Forma de pagamento</legend>
+                    <div>
+                    <input type="radio" name="person" id="pf" value="pessoaFisica" checked>
+                    <label for="pf">Dinheiro</label>
+                    </div> 
+
+                    <div>
+                    <input type="radio" name="person" id="pj" value="pessoaJuridica">
+                    <label for="pj">Cartão</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" name="person" id="pj" value="pessoaJuridica">
+                    <label for="pj">Pix</label>
+                    </div>
+
+
+                    <div>
+                    <input type="radio" name="person" id="pj" value="pessoaJuridica">
+                    <label for="pj">Multiplas</label>
+                    </div>
+                </fieldset>
+
+                <div>
+                    <input type="radio" name="person" id="pf" value="pessoaFisica" checked>
+                    <label for="pf">Pessoa Física</label>
+                </div> 
+
+                <div>
+                    <input type="radio" name="person" id="pj" value="pessoaJuridica">
+                    <label for="pj">Pessoa Juridica</label>
+                </div>
+            </fieldset>
+
+                <div>
+                    <input type="checkbox" name="options" id="firstoption" value="1">
+                    <label for="firstoption">Opção 1 </label>
+
+                    <input type="checkbox" name="options" id="secondOption"value="2">
+                    <label for="secondOption">Opção 2 </label>
+                </div>
+
+                <div>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </div>
+                <div>
+                <button type="reset">Limpar Formulário</button>
+                </div>
+                <div>
+                <button type="submit">Enviar</button>
+               </div>
+                
+        </form>
+    </main>
+</body>
+</html>
