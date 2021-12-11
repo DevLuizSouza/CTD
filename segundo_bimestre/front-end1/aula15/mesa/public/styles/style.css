@@ -39,3 +39,20 @@ footer{
     grid-area: main-footer;
     height: 200px;
 }
+
+@media(max-width: 768px){
+    body{
+        display: grid;
+        grid-template-columns: 100%;
+    
+        grid-template-areas: 
+        'main-header '
+        'main-aside '
+        'main-content'
+    
+        'main-footer'
+        main-footer 
+    
+        ;
+    }
+}
